@@ -121,6 +121,32 @@ Programa un script que imprima todos los números del 1 al 100 que sean divisibl
 ```
 
 ## Ejercicio 5
+¿Cuál es la diferencia entre ejecutar un fichero JavaScript en un navegador web en formato <script> y en formato <script type=”module”>?.
+    
+AL utilizar type="module" podemos utilizar modulos que usaremos para escribir en ficheros independientes , con esto podemos importar o exportar codigo de modulos externos.       Lo    anterior es sumamente importante ya que los módulos nos permiten organizar el código de diversas formas. 
+    
+## Ejercicio 6
+ 
+Crea un objeto llamado formatter con un atributo, que llamaremos prefix, que tendrá de valor “Hello “, y un método que llamaremos append, que imprimirá la concatenación entre el atributo prefix y la cadena que pasemos como argumento en el método.
+formatter.append(“World”) // Result: Hello World
+```bash
+    
+    let formatter = {
+    preffix: "Hello",
+    prototype: "",
+    append: function(){
+        formatter.append(`World`)
+        formatter.toLowerString(`I’m Lucas`)  
+    }
+        }
+```
+    
+
+    
+  
+    
+    
+    
 
   
 
