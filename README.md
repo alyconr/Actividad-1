@@ -26,8 +26,19 @@
     let aboutme = `Mi nombre es ${nombres} ${apellidos} , mi Profesión es ${profesion} estoy cursando este Master porque  quiero desempeñarme en  el puesto de ${targetprofile}`; 
         }
     target();
-  ``` 
+   ``` 
   
+5. Muestra por pantalla esta última variable.
+  
+     ```bash 
+     function target() {
+    let aboutme = `Mi nombre es ${nombres} ${apellidos} , mi Profesión es ${profesion} estoy cursando este Master porque  quiero desempeñarme en  el puesto de                       ${targetprofile}`; 
+    console.log(aboutme)
+    }
+    target();
+    //salida: Mi nombre es Jeysson Aly Contreras Rodriguez , mi Profesión es Ingeniero Electrónico estoy cursando este Master porque  quiero desempeñarme en  el puesto de          Ingeniero DevOps
+   ``` 
+6.   
 
   
 
