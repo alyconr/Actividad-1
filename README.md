@@ -38,7 +38,40 @@
     target();
     //salida: Mi nombre es Jeysson Aly Contreras Rodriguez , mi Profesión es Ingeniero Electrónico estoy cursando este Master porque  quiero desempeñarme en  el puesto de          Ingeniero DevOps
    ``` 
-6.   
+6.  Importa tu fichero aboutme.js en el fichero index.js en la parte del Ejercicio 1 antes del console.log("Ej 1").
+    
+    En Index.js incluimos:
+    
+    ```bash
+    // Ejercicio 1
+    import {target}  from "./aboutme.js";
+
+    console.log("Ejercicio");
+
+    // Ejercicio 2
+
+    // Ejercicio 3
+
+    // Ejercicio 4
+
+    // Ejercicio 5
+
+    // Ejercicio 6
+    
+    
+    ```
+    En Aboutme.js incluimos "export":
+    ```bash
+    export function target() {
+    let aboutme = `Mi nombre es ${nombres} ${apellidos} , mi Profesión es ${profesion} estoy cursando este Master porque  quiero desempeñarme en  el puesto de ${targetprofile}`; 
+    console.log(aboutme)
+    }
+    target();
+    
+    ```
+    ![Ver Imagen](https://imgur.com/cnJmsav.jpg)
+7.   
+    
 
   
 
