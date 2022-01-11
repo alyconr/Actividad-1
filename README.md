@@ -90,6 +90,41 @@
    
 ## Ejercicio 3
 
+Enumera 3 herramientas útiles dentro de las herramientas de desarrollo de Google Chrome o Mozila Firefox (inspector, consola, networking…) y explica su funcionamiento.
+
+### ELEMENTS
+
+Muestra el código HTML utilizado para crear la página que se esta viendo. 
+![VER IMAGEN](https://imgur.com/ZxYae3p.jpg)
+
+### CONSOLE
+Brinda información sobre los elementos interactivos en una página, en esta herramienta podemos escribir código JavaScript para interactuar con la página que se está viendo, nos permite escribir mensajes que luego aparecen en console para mostrar que se ejecutó el js.
+
+![VER IMAGEN](https://imgur.com/cnJmsav.jpg)
+
+### SOURCES
+
+Muestra donde se almacenan todos los archivos que se utilizaron para hacer el sitio web y permite inspeccionarlos.
+
+![VER IMAGEN](https://imgur.com/82Q8Qsf.jpg)
+
+## Ejercicio 4
+
+Programa un script que imprima todos los números del 1 al 100 que sean divisibles por 7.
+
+```bash
+  for( var i=1 ; i<=100; i++){
+    if (i % 7 === 0) {
+        console.log(i);
+        }
+      }
+```
+
+## Ejercicio 5
+
+  
+
+
 
     
 
